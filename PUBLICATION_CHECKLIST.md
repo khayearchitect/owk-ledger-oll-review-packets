@@ -12,7 +12,6 @@ Use this checklist before creating or updating the public GitHub repository.
 - [ ] Confirm review wording does not request tax, legal, accounting, payroll, audit, or compliance advice.
 - [ ] Confirm the boundary notice is visible in the README and packet.
 - [ ] Confirm GitHub issue template asks for format feedback only.
-- [ ] Confirm public-facing copy uses OWK's collective voice: `we` / `our`, not first-person singular.
 
 ## Current Safe Upload Contents
 
