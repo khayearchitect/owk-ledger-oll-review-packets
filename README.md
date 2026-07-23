@@ -45,6 +45,15 @@ Please review the packet format, not the business decisions.
 
 This repository does not include application source code, private business data, non-public operating notes, credentials, production records, or customer records.
 
+## v0.3 Correction
+
+The v0.3 packet correction made bank-statement traceability and payslip deduction review fields more visible.
+
+
+## v0.4 Correction
+
+This correction adds `source_docs/BANKOLL001.md` so the bank-statement trace is represented as both structured CSV data and a source-document summary. GAP-006 is now marked resolved in v0.4; proof of payment remains unresolved under GAP-001.
+
 ## Rights Notice
 
 Copyright © 2026 OWK Group (Pty) Ltd.
