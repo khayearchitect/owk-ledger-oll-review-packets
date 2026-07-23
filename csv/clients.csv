@@ -1,0 +1,4 @@
+client_id,client_name,client_type,address_summary,contact_email,related_documents,total_billed_zar
+CL-001,Harbour Lane Cafe (Synthetic),Business,"Durban, KwaZulu-Natal (synthetic)",accounts@harbourlane.example,"QUOOLL001; INVOLL001",9200.00
+CL-002,North Ridge Flats (Synthetic),Body corporate,"Pinetown, KwaZulu-Natal (synthetic)",admin@northridge.example,INVOLL002,8050.00
+CL-003,Moya Studio (Synthetic),Business,"Hillcrest, KwaZulu-Natal (synthetic)",hello@moyastudio.example,INVOLL003,6900.00

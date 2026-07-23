@@ -1,0 +1,65 @@
+name: Reviewer Packet Feedback
+description: Provide format feedback on the synthetic OLL reviewer-ready packet.
+title: "Reviewer feedback: "
+labels:
+  - feedback
+  - synthetic-packet
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository uses synthetic data only. Please review the packet format, not the business decisions. Do not provide tax, legal, accounting, payroll, audit, or compliance advice.
+  - type: textarea
+    id: overall
+    attributes:
+      label: Overall impression
+      description: Would this packet help a reviewer understand the record set faster?
+    validations:
+      required: true
+  - type: textarea
+    id: missing
+    attributes:
+      label: What is missing?
+      description: List fields, documents, or sections that would be needed before useful review could begin.
+    validations:
+      required: false
+  - type: textarea
+    id: unclear
+    attributes:
+      label: What is unclear?
+      description: List labels, values, sections, or assumptions that caused confusion.
+    validations:
+      required: false
+  - type: textarea
+    id: unnecessary
+    attributes:
+      label: What seems unnecessary?
+      description: List anything that adds noise or should be moved elsewhere.
+    validations:
+      required: false
+  - type: textarea
+    id: confidence
+    attributes:
+      label: What increases confidence?
+      description: List sections, fields, or exports that make the packet easier to trust or review.
+    validations:
+      required: false
+  - type: dropdown
+    id: preferred_format
+    attributes:
+      label: Preferred format
+      options:
+        - Static packet
+        - CSV files
+        - Link-based view
+        - All three
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Boundary concerns
+      description: Does anything sound like it overclaims tax, legal, accounting, payroll, audit, or compliance authority?
+    validations:
+      required: false

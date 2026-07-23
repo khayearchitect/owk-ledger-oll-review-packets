@@ -1,0 +1,4 @@
+invoice_number,business_marked_status,amount_paid_zar,payment_date,payment_method,payment_reference,evidence_note,unresolved_gap
+INVOLL001,business-marked paid,9200.00,2026-07-10,EFT,HLC-JUL-REPAIR,Client said POP was sent by email,Payment proof file missing from packet
+INVOLL002,business-marked partially paid,5000.00,2026-07-18,EFT,NRF-PART-0718,Partial payment note captured by business,Remaining R 3050.00 unpaid or unexplained
+INVOLL003,payment pending / overdue,0.00,,, ,No payment reference supplied,Reviewer may need ageing or follow-up note

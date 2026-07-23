@@ -1,0 +1,2 @@
+quote_number,issue_date,client_id,client_name,subtotal_zar,vat_zar,total_zar,status,linked_invoice
+QUOOLL001,2026-07-02,CL-001,Harbour Lane Cafe (Synthetic),8000.00,1200.00,9200.00,accepted,INVOLL001

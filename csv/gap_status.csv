@@ -1,0 +1,8 @@
+gap_id,status,business_response,reviewer_follow_up_needed
+GAP-001,Pending,Proof of payment requested from client,Yes
+GAP-002,Pending,Business needs to confirm whether remaining amount is still due or negotiated,Yes
+GAP-003,Pending,Client VAT/tax identifier field added but value missing,Yes
+GAP-004,Pending,Employee tax number missing in synthetic HR record,Yes
+GAP-005,Not Applicable,Client invoice view evidence not available in this synthetic test,No
+GAP-006,Pending,Bank statement not included,Yes
+GAP-007,Pending,Input VAT source documents incomplete,Yes

@@ -1,0 +1,2 @@
+bank_account_label,statement_period,statement_available,statement_reference,review_note
+Primary business account,2026-07-01 to 2026-07-31,No,Not included in synthetic packet,Reviewer requested bank statement reference for payment traceability

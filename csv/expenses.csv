@@ -1,0 +1,4 @@
+expense_id,expense_date,supplier,category,subtotal_zar,vat_zar,total_zar,source_reference,review_note
+EXP-001,2026-07-04,Parts Depot (Synthetic),Repair parts,1800.00,270.00,2070.00,Missing supplier invoice,Input VAT source document missing
+EXP-002,2026-07-09,Fuel Stop (Synthetic),Vehicle fuel,950.00,0.00,950.00,Receipt photo not included,VAT treatment requires reviewer judgement
+EXP-003,2026-07-15,Tool Hire KZN (Synthetic),Equipment hire,1200.00,180.00,1380.00,Missing supplier VAT number,Supplier VAT identifier missing

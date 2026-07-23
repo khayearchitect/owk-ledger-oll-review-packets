@@ -1,0 +1,7 @@
+document_number,document_type,issue_date,recipient,amount_zar,status,source_reference
+QUOOLL001,Quote,2026-07-02,Harbour Lane Cafe (Synthetic),9200.00,"accepted; converted",source_docs/QUOOLL001.md
+INVOLL001,Invoice,2026-07-05,Harbour Lane Cafe (Synthetic),9200.00,business-marked paid,source_docs/INVOLL001.md
+INVOLL002,Invoice,2026-07-12,North Ridge Flats (Synthetic),8050.00,business-marked partially paid,source_docs/INVOLL002.md
+INVOLL003,Invoice,2026-07-18,Moya Studio (Synthetic),6900.00,overdue,source_docs/INVOLL003.md
+PAYOLL001,Payslip summary,2026-07-31,Lebo M. (Synthetic Employee),7500.00,synthetic HR record,source_docs/PAYOLL001.md
+LETOLL001,Employment letter summary,2026-07-01,Lebo M. (Synthetic Employee),0.00,synthetic HR record,source_docs/LETOLL001.md

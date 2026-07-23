@@ -1,0 +1,4 @@
+invoice_number,issue_date,due_date,client_id,client_name,subtotal_zar,vat_zar,total_zar,lifecycle_status,payment_status,source_pdf
+INVOLL001,2026-07-05,2026-07-12,CL-001,Harbour Lane Cafe (Synthetic),8000.00,1200.00,9200.00,"issued; sent; viewed; PDF downloaded",business-marked paid,source_docs/INVOLL001.md
+INVOLL002,2026-07-12,2026-07-19,CL-002,North Ridge Flats (Synthetic),7000.00,1050.00,8050.00,"issued; sent; viewed",business-marked partially paid,source_docs/INVOLL002.md
+INVOLL003,2026-07-18,2026-07-22,CL-003,Moya Studio (Synthetic),6000.00,900.00,6900.00,"issued; sent",overdue,source_docs/INVOLL003.md

@@ -1,0 +1,4 @@
+invoice_number,issued_at,sent_at,client_invoice_view_opened_at,pdf_downloaded_at,payment_reference_submitted_at,business_marked_paid_at
+INVOLL001,2026-07-05,2026-07-05,2026-07-06,2026-07-06,2026-07-10,2026-07-10
+INVOLL002,2026-07-12,2026-07-12,2026-07-13,,2026-07-18,business-marked partially paid
+INVOLL003,2026-07-18,2026-07-18,,,,not business-marked paid
