@@ -1,5 +1,7 @@
 # OLL Synthetic Reviewer Packet
 
+![OLL synthetic review packet preview](assets/oll-synthetic-review-card.png)
+
 This repository contains a synthetic reviewer-ready packet for testing whether structured small-business records can reduce back-and-forth before review begins.
 
 OLL is a review-support concept connected to OWK Ledger-Link. The purpose of this packet is not to provide accounting, tax, legal, payroll, audit, or compliance advice. The purpose is to test whether the packet format helps a reviewer understand business-provided records faster.
