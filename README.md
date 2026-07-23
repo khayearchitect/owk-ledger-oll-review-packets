@@ -51,3 +51,9 @@ The v0.3 packet correction made bank-statement traceability and payslip deductio
 ## v0.4 Correction
 
 This correction adds `source_docs/BANKOLL001.md` so the bank-statement trace is represented as both structured CSV data and a source-document summary. GAP-006 is now marked resolved in v0.4; proof of payment remains unresolved under GAP-001.
+
+## Social Review Card
+
+A public-safe PNG image card is included under `assets/` for posts that need a visual preview of the packet format.
+
+- `assets/oll-synthetic-review-card.png`
