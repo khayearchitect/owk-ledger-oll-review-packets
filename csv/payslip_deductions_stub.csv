@@ -1,0 +1,2 @@
+payslip_id,employee_id,gross_pay,employee_uif_example,paye_status,other_deductions,net_pay_status,review_note
+PAYOLL001,EMP-001,7500.00,75.00,Requires review,Not supplied,Not reviewer-confirmed,"Tax number is missing and payroll treatment must be checked before this payslip can be relied on."

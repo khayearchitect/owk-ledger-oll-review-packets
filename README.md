@@ -33,7 +33,7 @@ Please review the packet format, not the business decisions.
 ## Current Packet
 
 - Packet ID: `OLL-SYN-001`
-- Version: `v0.2 synthetic public test`
+- Version: `v0.4 synthetic public test`
 - Period: `01 July 2026 - 31 July 2026`
 - Business: `Blue Basin Repairs (Synthetic)`
 - Country context: South Africa
@@ -42,3 +42,12 @@ Please review the packet format, not the business decisions.
 ## Not Included
 
 This repository does not include application source code, private business data, non-public operating notes, credentials, production records, or customer records.
+
+## v0.3 Correction
+
+The v0.3 packet correction made bank-statement traceability and payslip deduction review fields more visible.
+
+
+## v0.4 Correction
+
+This correction adds `source_docs/BANKOLL001.md` so the bank-statement trace is represented as both structured CSV data and a source-document summary. GAP-006 is now marked resolved in v0.4; proof of payment remains unresolved under GAP-001.

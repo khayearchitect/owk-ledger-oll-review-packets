@@ -6,9 +6,11 @@ Role: Junior repair assistant
 Period: July 2026
 
 Gross pay: R 7,500.00
-Deductions shown: Not calculated in synthetic packet
-Net pay shown: Not calculated in synthetic packet
-Payroll deduction note: PAYE/UIF/SDL treatment is not calculated and requires professional review if relevant.
+Employee UIF example: R 75.00
+PAYE status: Requires review
+Other deductions: Not supplied
+Net pay status: Not reviewer-confirmed
+Payroll deduction note: deductions are intentionally surfaced as review fields. This packet does not confirm payroll compliance or provide payroll advice.
 
 Boundary: Synthetic HR record. This packet does not claim payroll compliance.
 

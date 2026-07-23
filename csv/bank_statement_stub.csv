@@ -1,2 +1,3 @@
-bank_account_label,statement_period,statement_available,statement_reference,review_note
-Primary business account,2026-07-01 to 2026-07-31,No,Not included in synthetic packet,Reviewer requested bank statement reference for payment traceability
+bank_line_id,bank_account_label,statement_period,statement_available,related_invoice,expected_date,expected_amount,payment_reference,evidence_status,review_note
+BS-JUL-001,Primary business account,2026-07-01 to 2026-07-31,No,INVOLL001,2026-07-10,9200.00,HLC-JUL-REPAIR,Missing,Bank statement line and POP must be supplied before paid status can be confirmed.
+BS-JUL-002,Primary business account,2026-07-01 to 2026-07-31,No,INVOLL002,2026-07-18,5000.00,NRF-PART-0718,Missing,Bank statement line must be supplied and remaining balance must be explained.

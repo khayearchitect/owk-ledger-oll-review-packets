@@ -10,6 +10,7 @@ Packet ID: OLL-SYN-001
 - INVOLL003.md
 - PAYOLL001.md
 - LETOLL001.md
+- BANKOLL001.md
 
 ## Included CSV Exports
 
@@ -23,12 +24,12 @@ Packet ID: OLL-SYN-001
 - missing_information.csv
 - expenses.csv
 - bank_statement_stub.csv
+- payslip_deductions_stub.csv
 - gap_status.csv
 
 ## Missing Source Documents
 
 - POP-HLC-JUL-REPAIR.pdf for INVOLL001
-- July 2026 bank statement for payment traceability
 - Supplier invoices for input VAT / expense support
 
 ## Boundary

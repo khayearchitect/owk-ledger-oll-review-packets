@@ -1,2 +1,2 @@
-employee_id,employee_name,role_title,employment_start_date,id_number_status,tax_number_status,payslip_count,employment_letter_count,payroll_boundary_note
-EMP-001,Lebo M. (Synthetic Employee),Junior repair assistant,2026-07-01,"Present in private business record; redacted in public synthetic packet",Missing,1,1,This packet does not claim payroll compliance.
+employee_id,employee_name,role_title,employment_start_date,id_number_status,tax_number_status,payslip_count,employment_letter_count,payroll_boundary_note,deduction_review_status
+EMP-001,Lebo M. (Synthetic Employee),Junior repair assistant,2026-07-01,"Present in private business record; redacted in public synthetic packet",Missing,1,1,"This packet does not claim payroll compliance. Deductions are review fields, not confirmed calculations.",Payroll deductions require reviewer inspection.

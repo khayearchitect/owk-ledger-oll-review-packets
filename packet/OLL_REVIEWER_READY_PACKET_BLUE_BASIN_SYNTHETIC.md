@@ -1,7 +1,7 @@
 # OLL Reviewer-Ready Packet
 
 Packet ID: OLL-SYN-001
-Packet version: v0.2 synthetic public test
+Packet version: v0.4 synthetic public test
 Packet period: 01 July 2026 - 31 July 2026
 Prepared date: 2026-07-23
 Business: Blue Basin Repairs (Synthetic)
@@ -112,7 +112,9 @@ Boundary: this is a simple synthetic expense-side summary. It does not claim VAT
 | EXP-002 | 2026-07-09 | Fuel Stop (Synthetic) | Vehicle fuel | R 950.00 | R 0.00 | R 950.00 | Receipt photo not included | VAT treatment requires reviewer judgement |
 | EXP-003 | 2026-07-15 | Tool Hire KZN (Synthetic) | Equipment hire | R 1,200.00 | R 180.00 | R 1,380.00 | Missing supplier VAT number | Supplier VAT identifier missing |
 
-## Bank Statement Stub
+## Bank Statement / Payment Trace Stub
+
+Boundary: this is not a real bank statement. It is a synthetic trace table showing the exact bank-statement references a reviewer would expect to receive before confirming payment status.
 
 | Field | Value |
 | :--- | :--- |
@@ -120,7 +122,12 @@ Boundary: this is a simple synthetic expense-side summary. It does not claim VAT
 | Statement period | 2026-07-01 to 2026-07-31 |
 | Statement available | No |
 | Statement reference | Not included in synthetic packet |
-| Review note | Reviewer requested bank statement reference for payment traceability |
+| Review note | Reviewer requested bank statement references for payment traceability |
+
+| Expected Bank Line | Related Invoice | Expected Date | Expected Amount | Payment Reference | Evidence Status | Reviewer Note |
+| :--- | :--- | :--- | ---: | :--- | :--- | :--- |
+| BS-JUL-001 | INVOLL001 | 2026-07-10 | R 9,200.00 | HLC-JUL-REPAIR | Source summary included; POP missing | Synthetic bank statement source exists, but POP must still be supplied before paid status can be confirmed. |
+| BS-JUL-002 | INVOLL002 | 2026-07-18 | R 5,000.00 | NRF-PART-0718 | Source summary included | Synthetic bank statement source exists; remaining balance must still be explained. |
 
 ## Payment / Reference Summary
 
@@ -161,7 +168,15 @@ Boundary: VAT/tax correctness is not claimed. This is business-provided VAT cont
 | Tax number status | Missing |
 | Payslip summaries included | 1 |
 | Employment letter summaries included | 1 |
-| Payroll boundary | This packet does not claim payroll compliance. |
+| Payroll boundary | This packet does not claim payroll compliance. Deductions are review fields, not confirmed calculations. |
+
+## Payslip Deduction Review Stub
+
+Boundary: the values below are synthetic review placeholders. They show that deductions must be inspected rather than assuming gross pay equals net pay. They are not payroll advice or a confirmed South African payroll calculation.
+
+| Payslip | Gross Pay | Employee UIF Example | PAYE Status | Other Deductions | Net Pay Status | Reviewer Note |
+| :--- | ---: | ---: | :--- | :--- | :--- | :--- |
+| PAYOLL001 | R 7,500.00 | R 75.00 | Requires review | Not supplied | Not reviewer-confirmed | Tax number is missing and payroll treatment must be checked before this payslip can be relied on. |
 
 ## Source Document List
 
@@ -173,6 +188,7 @@ Boundary: VAT/tax correctness is not claimed. This is business-provided VAT cont
 | source_docs/INVOLL003.md | Synthetic invoice summary | Included |
 | source_docs/PAYOLL001.md | Synthetic payslip summary | Included |
 | source_docs/LETOLL001.md | Synthetic employment letter summary | Included |
+| source_docs/BANKOLL001.md | Synthetic bank statement summary | Included |
 | csv/clients.csv | Client register export | Included |
 | csv/invoices.csv | Invoice register export | Included |
 | csv/payment_evidence.csv | Payment evidence export | Included |
@@ -188,8 +204,9 @@ Boundary: VAT/tax correctness is not claimed. This is business-provided VAT cont
 | GAP-003 | Pending | VAT/tax identifier | CL-002 / INVOLL002 | Does North Ridge Flats require VAT/tax identifier capture for this review? | Medium |
 | GAP-004 | Pending | HR tax detail | PAYOLL001 | Is the employee tax number unavailable, pending, or intentionally absent? | Medium |
 | GAP-005 | Not Applicable | Client invoice view | INVOLL003 | Was the client invoice view opened, or was the invoice only sent? | Low |
-| GAP-006 | Pending | Bank statement | Payment evidence | Which bank statement line confirms INVOLL001 and INVOLL002 payment references? | High |
+| GAP-006 | Resolved in v0.4 | Bank statement trace | BANKOLL001 | Synthetic bank statement source summary now maps INVOLL001 and INVOLL002 payment references. | Medium |
 | GAP-007 | Pending | Input VAT / expenses | Expense summary | Are supplier invoices available to support input VAT examples? | High |
+| GAP-008 | Pending | Payroll deductions | PAYOLL001 | Are UIF, PAYE, and any other payroll deductions correctly calculated and supported? | High |
 
 ## Business-Provided Notes
 
@@ -214,12 +231,14 @@ This packet includes:
 - csv/gap_status.csv
 - csv/expenses.csv
 - csv/bank_statement_stub.csv
+- csv/payslip_deductions_stub.csv
 - source_docs/QUOOLL001.md
 - source_docs/INVOLL001.md
 - source_docs/INVOLL002.md
 - source_docs/INVOLL003.md
 - source_docs/PAYOLL001.md
 - source_docs/LETOLL001.md
+- source_docs/BANKOLL001.md
 
 ## Review Questions
 

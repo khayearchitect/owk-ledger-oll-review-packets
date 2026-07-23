@@ -4,5 +4,5 @@ GAP-002,Pending,Partial payment,INVOLL002,Is the remaining R 3050.00 still due w
 GAP-003,Pending,VAT/tax identifier,CL-002 / INVOLL002,Does North Ridge Flats require VAT/tax identifier capture for this review?,Client VAT/tax identifier field is visible but empty,Medium
 GAP-004,Pending,HR tax detail,PAYOLL001,Is the employee tax number unavailable pending or intentionally absent?,Synthetic record intentionally marks this missing,Medium
 GAP-005,Not Applicable,Client invoice view,INVOLL003,Was the client invoice view opened or was the invoice only sent?,No view evidence available,Low
-GAP-006,Pending,Bank statement,Payment evidence,Which bank statement line confirms INVOLL001 and INVOLL002 payment references?,Bank statement not included in synthetic packet,High
+GAP-006,Resolved in v0.4,Bank statement trace,BANKOLL001,Synthetic bank statement source summary now maps INVOLL001 and INVOLL002 payment references.,Source summary included in source_docs/BANKOLL001.md,Medium
 GAP-007,Pending,Input VAT / expenses,Expense summary,Are supplier invoices available to support input VAT examples?,Supplier invoices missing or incomplete,High
